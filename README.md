@@ -1,16 +1,18 @@
-# store_app
+# store_app 🏪💰
 
-A new Flutter project.
+Flutter project 🐦📱
 
-## Getting Started
+## The Packages Was Used 📦🧰
 
-This project is a starting point for a Flutter application.
+1) http  
+2) cached_network_image  
+3) shared_preferences  
+4) connectivity_plus  
+5) modal_progress_hud_nsn  
+6) provider  
+7) get  
 
-A few resources to get you started if this is your first Flutter project:
+## The Final Result 🤯😎🔥  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![image] (https://drive.google.com/uc?export=view&id=11lPV96CPxyPe7aldE3o3sQzzI9TrXiro)  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
