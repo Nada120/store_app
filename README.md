@@ -14,5 +14,5 @@ Flutter project 🐦📱
 
 ## The Final Result 🤯😎🔥  
 
-<img src="store_app/project_result_image/1696869428595.jpg">  
+<img src="project_result_image/1696869428595.jpg">  
 
