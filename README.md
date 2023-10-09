@@ -13,5 +13,5 @@ Flutter project 🐦📱
 7) get  
 
 ## The Final Result 🤯😎🔥  
-<img src="https://drive.google.com/uc?/d/11lPV96CPxyPe7aldE3o3sQzzI9TrXiro/view?usp=drive_link">
+<img src="https://drive.google.com/file/uc?/11lPV96CPxyPe7aldE3o3sQzzI9TrXiro/view?usp=drive_link">
 
