@@ -9,14 +9,29 @@ class NetworkController extends GetxController {
   @override
   void onInit() {
     super.onInit();
+    checkConnectivity();
     _connectivity.onConnectivityChanged.listen(_updateConnectionState);
+  }
+
+  void checkConnectivity() async {
+    var checkResult = await Connectivity().checkConnectivity();
+    if (checkResult.name == 'none') {
+      Get.dialog(
+        const CustomError(
+          icon: Icons.wifi_off,
+          errorMessage: 'PLEASE CONNECT TO THE INTERNET',
+        ),
+        barrierDismissible: false,
+      );
+      debugPrint('the first if condition');
+    }
   }
 
   void _updateConnectionState(ConnectivityResult result) {
     if (result == ConnectivityResult.none) {
       Get.dialog(
         const CustomError(
-          icon: Icons.wifi_off, 
+          icon: Icons.wifi_off,
           errorMessage: 'PLEASE CONNECT TO THE INTERNET',
         ),
         barrierDismissible: false,
